@@ -1,6 +1,6 @@
 package Ejercicios_Clases;
 
-public class busqueda_arrays {
+public class Busqueda_Arrays {
     public static void main(String[] args) {
         int [] arreglo = {10,6,9,30,7};
         int clave = 9;
