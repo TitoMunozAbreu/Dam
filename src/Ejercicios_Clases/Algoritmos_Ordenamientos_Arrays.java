@@ -10,11 +10,13 @@ public class Algoritmos_Ordenamientos_Arrays {
         System.out.println("Array SIN ordenar: " + Arrays.toString(arreglo));
 
         //mostrar array ordenado con el metodo quicksort
-        //System.out.println("Metodo quicksort - array rrdenado: " + Arrays.toString(quicksort(arreglo,0,arreglo.length-1)));
+        System.out.println("Metodo quicksort - array rrdenado: " + Arrays.toString(quicksort(arreglo,0,arreglo.length-1)));
 
         //mostrar array ordenado con el metodo burbuja
         System.out.println("Metodo burbuja - array ordenado: " + Arrays.toString(burbuja(arreglo)));
 
+        //mostrar array ordenado con el metodo shell
+        System.out.println("Metodo shell - array ordenado: " + Arrays.toString(shell(arreglo)));
 
     }
 
@@ -95,8 +97,28 @@ public class Algoritmos_Ordenamientos_Arrays {
      * @return Devuelve el array ordenado
      */
     public static int[] shell(int[] arreglo){
-        return arreglo;
+        int salto, j, k, auxiliar;
+        salto = arreglo.length/2;
 
+        while(salto > 0){
+
+            for (int i = salto; i < arreglo.length; i++) {
+                j = i - salto;
+                while (j >= 0){
+                    k = j + salto;
+                    if(arreglo[j] <= arreglo[k]){
+                        j--;
+                    }else{
+                        auxiliar = arreglo[j];
+                        arreglo[j] = arreglo[k];
+                        arreglo[k] = auxiliar;
+                        j -= salto;
+                    }
+                }
+            }
+            salto /=2;
+        }
+        return arreglo;
     }
 
 
