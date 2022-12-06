@@ -97,25 +97,35 @@ public class Algoritmos_Ordenamientos_Arrays {
      * @return Devuelve el array ordenado
      */
     public static int[] shell(int[] arreglo){
+        //Declarar las varibles a utilizar
         int salto, j, k, auxiliar;
         salto = arreglo.length/2;
 
+        //Mientras que salto sea mayor a cero continua
         while(salto > 0){
 
             for (int i = salto; i < arreglo.length; i++) {
+                //definir la primera posicion del valor del array a comparar
                 j = i - salto;
+                //mientas j sea mayor a sero
                 while (j >= 0){
+                    //definir la segunda posicion del valor del array a comparar
                     k = j + salto;
+                    //comprobar en caso que la primera posicion sea menor a la segunda
                     if(arreglo[j] <= arreglo[k]){
+                        //restar una posicion a j
                         j--;
                     }else{
+                        //realizar el intercambio
                         auxiliar = arreglo[j];
                         arreglo[j] = arreglo[k];
                         arreglo[k] = auxiliar;
+                        //resta posicion a j
                         j -= salto;
                     }
                 }
             }
+            //reducimos el valor del salto
             salto /=2;
         }
         return arreglo;
