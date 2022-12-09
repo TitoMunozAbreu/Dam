@@ -10,6 +10,7 @@ package Ejercicios_Clases;
 
 public class Aplicando_Recursividad {
     public static void main(String[] args) {
+
         //inicializar el numero
         int n = 10;
         //incializar la potencia
@@ -47,6 +48,8 @@ public class Aplicando_Recursividad {
         //mostrar matriz
         mostrarMatriz(matriz, i, j);
 
+        //mostrar la suma recursiva
+        System.out.println("Suma recursiva: " + sumaRecursiva(5,10));
     }
 
     /**
@@ -181,6 +184,22 @@ public class Aplicando_Recursividad {
             System.out.println("}");
         }
          */
+
+    }
+
+    /**
+     * SUMA RECURSIVA
+     * @param a Entero de a
+     * @param b Entero de b
+     * @return Suma de enteros
+     */
+    public static int sumaRecursiva(int a, int b){
+
+        if (b== 0){//caso recursivo
+            return a;
+        }else{//llamada recursiva
+        return sumaRecursiva(a+1, b-1);
+        }
 
     }
 
