@@ -197,7 +197,7 @@ public class Aplicando_Recursividad {
 
         if (b== 0){//caso recursivo
             return a;
-        }else{//llamada recursiva
+        }else{//llamada recursivaz
         return sumaRecursiva(a+1, b-1);
         }
 

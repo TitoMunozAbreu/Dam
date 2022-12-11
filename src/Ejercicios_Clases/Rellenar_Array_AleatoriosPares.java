@@ -13,7 +13,9 @@ public class Rellenar_Array_AleatoriosPares {
     }
 
     public static int[] rellenaPares(int l, int f){
+        //incializar array con la longitud de l
         int[] tabla = new int [l];
+        // declarar variable random
         int r;
         for (int i = 0; i < tabla.length; i++) {
             do {
