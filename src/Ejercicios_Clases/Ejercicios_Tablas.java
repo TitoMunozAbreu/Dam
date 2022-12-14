@@ -116,7 +116,6 @@ public class Ejercicios_Tablas {
      */
     public static void borrarelemento(){
         int posicion = 0;
-        boolean comprobar = true;
         //comprueba que los elementos se hayan introducidos
         if (!check) {
             System.out.println("¡ATENCION! introducir elementos en el array");
@@ -127,30 +126,17 @@ public class Ejercicios_Tablas {
             do {
                 try {
                     //solicitar la posicion del elemento que se quiere eliminar
-                    System.out.println("introducir la posicion del elemento a borrar:");
+                    System.out.println("introducir la posicion entre (1 y "+arreglo.length+") del elemento a borrar:");
                     posicion = Integer.parseInt(sc.next());
                 } catch (NumberFormatException a) {
                     System.out.println("¡ATENCION! ingresar unicamente numeros enteros");
                 }
-            }while(posicion < 0 || posicion > arreglo.length);
-            //recorrer el array
-            for (int i = 0; i < arreglo.length; i++) {
-                //comprobar que la posicion sea igual a i
-                if(posicion == i){
-                    System.out.println("El elemento " + arreglo[i] + " en la posicion " + i + " ha sido eliminado");
-                    //borrar elemento: asignando a cero
-                    arreglo[i] = 0;
-                    break;
-                }else{// en caso contrario
-                    comprobar = false;
-                }
-            }
-            //comprobar que la posicion no haya sido encontrada en el array
-            if(!comprobar){
-                System.out.println("La posicion introducida esta fuera de la longitud del array");
-            }
+            }while(posicion <= 0 || posicion >= (arreglo.length + 1));
 
-
+            //borrar elemento: asignando a cero
+            System.out.println("El elemento " + arreglo[posicion-1] + " ha sido eliminado");
+            //borrar elemento: asignando a cero
+            arreglo[posicion-1] = 0;
         }
 
     }
