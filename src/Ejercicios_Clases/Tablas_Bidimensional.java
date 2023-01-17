@@ -8,9 +8,9 @@ public class Tablas_Bidimensional {
         //incializar matriz de 5x5
         int[][] matriz = new int [5][5];
         //funcion para introducir elementos en la funcion
-        rellenarMatriz(matriz);
+       rellenarMatriz(matriz);
         //mostrar por consola matriz
-        mostrarMatriz(matriz);
+       mostrarMatriz(matriz);
     }
 
     /**
