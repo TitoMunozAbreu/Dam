@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+ <!-- Realizado por TITO JOSE MUÑOZ ABREU -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Uso de Etiquetas</title>
+</head>
+<body>
+<header>
+    <h1>Título: Transformación del Modelo Entidad/Relación al Modelo Relacional.</h1>
+    <hr>
+</header>
+
+<p>Objetivo: Identificar el significado de la simbología propia de los diagramas entidad/relación.</p>
+<h2>1. Transformación de las Entidades Fuertes.</h2>
+<p>Las Entidades Fuertes del modelo Entidad Relación son transformadas al modelo relacional siguiendo estas instrucciones</p>
+<h3>Cada entidad del MER da lugar a una nueva relación.</h3>
+<p>Identificador principal: atributo(s) que forman la clave primaria de la nueva relación. Se subrayan.</p>
+<h3>Cada atributo de una entidad se transforma en un atributo de esta relación.</h3>
+<p>Atributos MULTIVALUADOS: dan lugar a una nueva relación cuya clave primaria es la concatenación de
+    la clave primaria de la entidad en la que está el atributo multivaluado mas el nombre del atributo multivaluado.</p>
+<h2>2. Transformación de Relaciones.</h2>
+<p>Las interrelaciones pueden dar lugar a una nueva relación.</p>
+<h3>Relaciones de varios a varios</h3>
+<p>Si la cardinalidad mínima de la entidad que se propaga es 1, significa que no pueden admitirse valores nulos
+    en la clave foránea (clave propagada).</p>
+<h3>Relaciones de orden n</h3>
+<p>Todo tipo de interrelación 1:N se traduce en el fenómeno de propagación de la clave. Se propaga la clave
+    primaria de la entidad que se encuentra en el lado 1 a la entidad que se encuentra en el lado N.</p>
+<h2>3. Conclusiones</h2>
+<p>Para transformarlas se debe suponer que se trata de una relación binaria con la particularidad que las dos
+    entidades iguales y aplicar las reglas vistas.<br><br> <br>Muchas gracias.<br></p>
+
+</body>
+</html>
