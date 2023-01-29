@@ -1,0 +1,37 @@
+<!doctype html>
+<!-- TITO JOSE MUÑOZ ABREU -->
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Formulario</title>
+  </head>
+  <body>
+    <h1 align="center"><strong>Completar Formulario</strong></h1>
+
+    <form name="formulario" action="mailto:munoztitojose@gmail.com" method="post" enctype="text/plain">
+        <label> Nombre
+            <input type="text" id="Nombre" name="Nombre" hspace="10"></label><br>
+        <label> Apellidos
+            <input type="text" id="Apellidos" name="Apellidos" vspace="10">
+        </label><br>
+        <label> F.Nacimiento
+            <input type="date" id="F.Nacimiento" name="F.Nacimiento"></label><br>
+        <label> Color favorito
+            <input type="color" id="Color_favorito" name="Color_favorito" vspace="10"></label><br>
+        <label> Nº Hijos
+            <input type="number" id="n_hijos" name="n_hijos" hspace="5" vspace="10"></label><br>
+        <label> Email
+            <input type="email" id="Email" name="Email" hspace="22" required></label><br>
+        <label> Telefono
+            <input type="tel" id="Telefono" name="Telefono"  hspace="5" vspace="10"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" >
+            <small>Format: 123-45-67-89</small>
+        </label><br>
+        <input type="submit" name="">
+
+    </form>
+
+  </body>
+</html>
