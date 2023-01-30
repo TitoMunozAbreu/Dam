@@ -1,4 +1,4 @@
-package Ejercicios_OPO_FichaAutoEscuela;
+package Ejercicios_FichaAutoEscuela;
 
 public class Coche {
      private String matricula;

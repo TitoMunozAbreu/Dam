@@ -1,6 +1,5 @@
-package Ejercicios_OPO_FichaAutoEscuela;
+package Ejercicios_FichaAutoEscuela;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class Ficha {
