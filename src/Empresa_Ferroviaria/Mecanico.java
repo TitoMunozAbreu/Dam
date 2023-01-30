@@ -1,4 +1,4 @@
-package Ejercicio_EmpresaFerroviaria;
+package Empresa_Ferroviaria;
 
 public class Mecanico extends Empleado{
     private Especialidades especialidad;

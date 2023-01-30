@@ -1,4 +1,4 @@
-package Ejercicio_EmpresaFerroviaria;
+package Empresa_Ferroviaria;
 
 import java.time.LocalDate;
 

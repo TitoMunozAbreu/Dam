@@ -1,4 +1,4 @@
-package Ejercicio_EmpresaFerroviaria;
+package Empresa_Ferroviaria;
 
 public class Maquinista extends Empleado{
     private String Rango;

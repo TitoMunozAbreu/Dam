@@ -1,4 +1,4 @@
-package Ejercicios_Patinete;
+package Patinete;
 
 import java.time.LocalDate;
 

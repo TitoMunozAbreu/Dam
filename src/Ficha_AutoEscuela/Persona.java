@@ -1,4 +1,4 @@
-package Ejercicios_FichaAutoEscuela;
+package Ficha_AutoEscuela;
 
 public class Persona {
     private String nombre;

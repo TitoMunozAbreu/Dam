@@ -1,4 +1,4 @@
-package Ejercicios_Patinete;
+package Patinete;
 
 public class Patinete {
     private String ID;

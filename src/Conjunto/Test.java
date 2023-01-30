@@ -1,4 +1,4 @@
-package Ejercicios_Conjunto;
+package Conjunto;
 
 public class Test {
     public static void main(String[] args) {

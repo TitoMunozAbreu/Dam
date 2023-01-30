@@ -1,4 +1,4 @@
-package Ejercicios_CuentaCorriente;
+package Cuenta_Corriente;
 
 public class Test_CuentaCorriente {
     public static void main(String[] args) {

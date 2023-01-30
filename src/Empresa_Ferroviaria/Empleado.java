@@ -1,6 +1,4 @@
-package Ejercicio_EmpresaFerroviaria;
-
-import java.time.LocalDate;
+package Empresa_Ferroviaria;
 
 public class Empleado {
     private String nombre;

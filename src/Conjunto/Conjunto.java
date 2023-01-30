@@ -1,4 +1,4 @@
-package Ejercicios_Conjunto;
+package Conjunto;
 
 import java.util.ArrayList;
 import java.util.Iterator;
