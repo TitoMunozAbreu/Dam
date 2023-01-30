@@ -1,4 +1,4 @@
-package Ejercicios_OPO_Conjunto;
+package Ejercicios_Conjunto;
 
 import java.util.ArrayList;
 import java.util.Iterator;

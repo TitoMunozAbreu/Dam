@@ -1,7 +1,4 @@
-package Ejercicios_OPO_Conjunto;
-
-import java.util.ArrayList;
-import java.util.List;
+package Ejercicios_Conjunto;
 
 public class Test {
     public static void main(String[] args) {
