@@ -1,6 +1,9 @@
-package Empresa_Ferroviaria;
+package Empresa_Ferroviaria.Empleados;
 
-public class Mecanico extends Empleado{
+import Empresa_Ferroviaria.Empleados.Empleado;
+import Empresa_Ferroviaria.Empleados.Especialidades;
+
+public class Mecanico extends Empleado {
     private Especialidades especialidad;
 
     public Mecanico(){}

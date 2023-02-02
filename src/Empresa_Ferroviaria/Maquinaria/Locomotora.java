@@ -1,4 +1,6 @@
-package Empresa_Ferroviaria;
+package Empresa_Ferroviaria.Maquinaria;
+
+import Empresa_Ferroviaria.Empleados.Mecanico;
 
 public class Locomotora {
     private String matricula;

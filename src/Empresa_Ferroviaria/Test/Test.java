@@ -1,4 +1,12 @@
-package Empresa_Ferroviaria;
+package Empresa_Ferroviaria.Test;
+
+import Empresa_Ferroviaria.Empleados.Especialidades;
+import Empresa_Ferroviaria.Empleados.Jefe_Estacion;
+import Empresa_Ferroviaria.Empleados.Maquinista;
+import Empresa_Ferroviaria.Empleados.Mecanico;
+import Empresa_Ferroviaria.Maquinaria.Locomotora;
+import Empresa_Ferroviaria.Maquinaria.Tren;
+import Empresa_Ferroviaria.Maquinaria.Vagon;
 
 import java.time.LocalDate;
 

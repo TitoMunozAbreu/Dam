@@ -1,4 +1,4 @@
-package Empresa_Ferroviaria;
+package Empresa_Ferroviaria.Maquinaria;
 
 public class Vagon {
     private int id_vagon;

@@ -1,4 +1,4 @@
-package Empresa_Ferroviaria;
+package Empresa_Ferroviaria.Empleados;
 
 public enum Especialidades {
     FRENOS("Mecanico especialista en frenos"),

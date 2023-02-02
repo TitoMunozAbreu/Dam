@@ -1,6 +1,8 @@
-package Empresa_Ferroviaria;
+package Empresa_Ferroviaria.Empleados;
 
-public class Maquinista extends Empleado{
+import Empresa_Ferroviaria.Empleados.Empleado;
+
+public class Maquinista extends Empleado {
     private String Rango;
 
     public Maquinista(){}

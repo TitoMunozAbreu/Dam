@@ -1,8 +1,10 @@
-package Empresa_Ferroviaria;
+package Empresa_Ferroviaria.Empleados;
+
+import Empresa_Ferroviaria.Empleados.Empleado;
 
 import java.time.LocalDate;
 
-public class Jefe_Estacion extends Empleado{
+public class Jefe_Estacion extends Empleado {
     LocalDate fecha_ascenso;
 
     public Jefe_Estacion(){}
