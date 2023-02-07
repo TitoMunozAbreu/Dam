@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacta</title>
+</head>
+<body>
+  <header>
+  <table align="center">
+    <thead>
+    <tr>
+      <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="HTML.Logo" height="100px"></th>
+    </tr>
+    </thead>
+    <table align="left">
+      <tbody>
+      <tr>
+        <td><a href="index.html" target="_parent"> Tito Jose Muñoz Abreu</a></td>
+      </tr>
+      </tbody>
+    </table>
+    <table align="right">
+      <tbody>
+      <tr>
+        <td><a href="contacta.html">Contactame</a></td>
+      </tr>
+      </tbody>
+    </table>
+  </table>
+</header>
+  <br>
+  <h3><strong>Datos de contacto</strong></h3>
+
+  <form name="formulario" action="mailto:munoztitojose@gmail.com" method="post" enctype="text/plain">
+    <label> Nombre:
+      <input type="text" id="Nombre" name="Nombre" hspace="10"></label><br>
+    <label> Apellidos:
+      <input type="text" id="Apellidos" name="Apellidos" vspace="10">
+    </label><br>
+    <label> F.Nacimiento:
+      <input type="date" id="F.Nacimiento" name="F.Nacimiento" vspace="10"></label><br>
+    <label> Telefono:
+      <input type="tel" id="Telefono" name="Telefono"  hspace="5" vspace="10"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" >
+      <small>Format: 123-45-67-89</small>
+    </label><br>
+    <label>Mensaje:</label><br>
+    <textarea name="mensaje" rows="10" cols="30" maxlength="100"></textarea><br>
+    <input type="submit" name="" vspace="15">
+  </form>
+</body>
+</html>
