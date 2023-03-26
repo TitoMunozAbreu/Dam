@@ -3,7 +3,7 @@ package Ejercicio_Comparable;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Test {
+public class Test_Fultbolista {
     public static void main(String[] args) {
         Futbolista[] jugadores = {
                                     new Futbolista("5", "Fidel", 20, 1),
