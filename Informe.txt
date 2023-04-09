@@ -1,0 +1,4 @@
+Esta es una linea escritaeste es un texto con salto de linea
+este es un texto con dos salto de lineafina
+
+realice dos saltos de linea fin
