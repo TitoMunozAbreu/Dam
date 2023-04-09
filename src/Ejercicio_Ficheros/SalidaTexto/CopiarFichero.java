@@ -4,6 +4,7 @@ import java.io.*;
 
 public class CopiarFichero {
     public static void main(String[] args) {
+
         copiarFichero("poema.txt");
         System.out.println(leerFichero("copia_de_poema.txt"));
 
@@ -45,8 +46,7 @@ public class CopiarFichero {
         }catch (IOException e){
             e.printStackTrace();
         }
-
-
     }
+
 
 }
